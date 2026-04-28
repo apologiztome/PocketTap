@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#121212">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="👆 PocketTap"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Control your music from your pocket"
+        android:textSize="14sp"
+        android:textColor="#AAAAAA"
+        android:layout_marginBottom="48dp"/>
+
+    <!-- Status Indicator -->
+    <TextView
+        android:id="@+id/statusDot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🔴"
+        android:textSize="48sp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inactive"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="48dp"/>
+
+    <!-- Toggle Button -->
+    <Button
+        android:id="@+id/toggleButton"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:text="Turn ON"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#2E7D32"
+        android:layout_marginBottom="48dp"/>
+
+    <!-- Instructions -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#1E1E1E"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to use:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👆  1 tap on back  →  Next track ⏭"
+            android:textSize="15sp"
+            android:textColor="#CCCCCC"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="👆👆  2 taps on back  →  Previous track ⏮"
+            android:textSize="15sp"
+            android:textColor="#CCCCCC"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✅  Works with screen OFF"
+            android:textSize="13sp"
+            android:textColor="#888888"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✅  Works in your pocket"
+            android:textSize="13sp"
+            android:textColor="#888888"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✅  Auto-restarts after reboot"
+            android:textSize="13sp"
+            android:textColor="#888888"/>
+
+    </LinearLayout>
+
+</LinearLayout>

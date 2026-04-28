@@ -1,0 +1,2 @@
+rootProject.name = "PocketTap"
+include ':app'
